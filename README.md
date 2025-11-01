@@ -18,7 +18,126 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
- Include the necessary coding and corresponding screenshots
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+```
+```
+marks=[13,45,63,78]
+student=['ABC','QOR','EFB','TOB']
+plt.plot(marks,student)
+plt.xlabel('Marks')
+plt.ylabel('Student name')
+plt.show()
+student=['A','B','C','D']
+attendence=[90,85,73,88]
+plt.plot(attendence,student)
+plt.xlabel('Attendence')
+plt.ylabel('Student name')
+plt.show()
+
+```
+<img width="542" height="812" alt="image" src="https://github.com/user-attachments/assets/7a18d5e4-a90f-48ce-922f-46c75c0b138d" />
+
+```
+x=[10,20,30,40,50]
+y=[100,200,300,400,500]
+plt.scatter(x,y,label='stars',color='green',marker='*',s=30)
+plt.show()
+x=np.arange(0,15)
+y=np.arange(0,15)
+x
+y
+plt.scatter(x,y,c='r')
+plt.xlabel('X axis')
+plt.ylabel('y axis')
+plt.title('Scatter plot')
+plt.show()
+
+```
+
+<img width="536" height="812" alt="image" src="https://github.com/user-attachments/assets/ce835111-1811-4e00-8065-d52ae15027a6" />
+
+```
+act=['eat','sleep','work','play']
+slices=[3,7,8,6]
+color=['r','y','g','b']
+plt.pie(slices,labels=act,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%')
+plt.legend()
+plt.show()
+feedback=['Good','excellent','Perfect','Ok']
+slices=[4,10,3,8]
+color=['y','r','b','g']
+plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%')
+plt.legend()
+plt.show()
+
+```
+
+<img width="413" height="764" alt="image" src="https://github.com/user-attachments/assets/c2bfab04-a6de-4e34-8eba-377ac87ffe21" />
+
+```
+x = [1, 2, 3, 4, 5]
+y1 = [10, 12, 14, 16, 18]
+y2 = [5, 7, 9, 11, 13]
+y3 = [2, 4, 6, 8, 10]
+plt.fill_between(x, y1, color='blue')
+plt.fill_between(x, y2, color='green')
+plt.plot(x, y1, color='red')
+plt.plot(x, y2, color='black')
+plt.legend(['y1','y2'])
+plt.show()
+
+```
+
+<img width="519" height="385" alt="image" src="https://github.com/user-attachments/assets/8abd5494-96ff-4334-977e-9cb2f3130a1e" />
+
+```
+height = [10, 24, 36, 40, 5]
+names = ['one', 'two', 'three', 'four', 'five']
+c1=['red', 'green']
+c2=['b', 'g']
+plt.bar (names, height, width=0.8, color=c1)
+plt.xlabel('x - axis')
+plt.ylabel('y - axis')
+plt.title('My bar chart!')
+plt.show()
+
+```
+
+<img width="528" height="423" alt="image" src="https://github.com/user-attachments/assets/ad9f712a-bbf4-45e0-aaec-e7978d6cb17f" />
+
+```
+x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
+plt.hist(x, bins = 10, color='blue', alpha=0.5)
+plt.show()
+
+```
+
+<img width="499" height="388" alt="image" src="https://github.com/user-attachments/assets/fb1d626e-c881-47b7-b93e-20ff09c6d052" />
+
+```
+np.random.seed(0)
+data=np.random.normal(loc=0, scale=1, size=100)
+data
+
+```
+
+<img width="540" height="339" alt="image" src="https://github.com/user-attachments/assets/db13a696-ff4b-464b-97b0-15c107053c15" />
+
+```
+fig, ax= plt.subplots()
+ax.boxplot(data)
+ax.set_xlabel('Data')
+ax.set_ylabel('Values')
+ax.set_title('Box Plot')
+
+```
+
+<img width="532" height="423" alt="image" src="https://github.com/user-attachments/assets/b402289f-f83d-4fd9-aca1-b4fc9e7c01c5" />
 
 # Result:
- Include your result here
+Thus, all the data visualization techniques of matplotlib has been implemented.
+
