@@ -18,6 +18,9 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
+
+# Line Plot:
+
 ```
 import pandas as pd
 import numpy as np
@@ -41,6 +44,7 @@ plt.show()
 ```
 <img width="542" height="812" alt="image" src="https://github.com/user-attachments/assets/7a18d5e4-a90f-48ce-922f-46c75c0b138d" />
 
+# Scatter Plot:
 ```
 x=[10,20,30,40,50]
 y=[100,200,300,400,500]
@@ -60,6 +64,8 @@ plt.show()
 
 <img width="536" height="812" alt="image" src="https://github.com/user-attachments/assets/ce835111-1811-4e00-8065-d52ae15027a6" />
 
+# Pie Chart:
+
 ```
 act=['eat','sleep','work','play']
 slices=[3,7,8,6]
@@ -78,6 +84,8 @@ plt.show()
 
 <img width="413" height="764" alt="image" src="https://github.com/user-attachments/assets/c2bfab04-a6de-4e34-8eba-377ac87ffe21" />
 
+# Area Chart:
+
 ```
 x = [1, 2, 3, 4, 5]
 y1 = [10, 12, 14, 16, 18]
@@ -94,6 +102,8 @@ plt.show()
 
 <img width="519" height="385" alt="image" src="https://github.com/user-attachments/assets/8abd5494-96ff-4334-977e-9cb2f3130a1e" />
 
+# Bar Chart:
+
 ```
 height = [10, 24, 36, 40, 5]
 names = ['one', 'two', 'three', 'four', 'five']
@@ -109,6 +119,8 @@ plt.show()
 
 <img width="528" height="423" alt="image" src="https://github.com/user-attachments/assets/ad9f712a-bbf4-45e0-aaec-e7978d6cb17f" />
 
+# Histogram:
+
 ```
 x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x, bins = 10, color='blue', alpha=0.5)
@@ -118,6 +130,8 @@ plt.show()
 
 <img width="499" height="388" alt="image" src="https://github.com/user-attachments/assets/fb1d626e-c881-47b7-b93e-20ff09c6d052" />
 
+# Box Plot:
+
 ```
 np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
@@ -126,6 +140,7 @@ data
 ```
 
 <img width="540" height="339" alt="image" src="https://github.com/user-attachments/assets/db13a696-ff4b-464b-97b0-15c107053c15" />
+
 
 ```
 fig, ax= plt.subplots()
