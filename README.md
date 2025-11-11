@@ -19,14 +19,13 @@ STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
 
-# Line Plot:
-
 ```
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
+# Line Plot:
 ```
 marks=[13,45,63,78]
 student=['ABC','QOR','EFB','TOB']
